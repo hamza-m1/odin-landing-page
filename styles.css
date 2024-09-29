@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid blue; */
+}
+
+header {
+    /* max-width: 80%; */
+    padding: 20px 150px;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+}
+
+header a {
+    color: white;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
