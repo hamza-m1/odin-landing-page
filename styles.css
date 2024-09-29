@@ -13,11 +13,10 @@ body {
     /* border: 5px solid blue; */
 }
 
-header, .main {
+header, .main, .gallery {
     /* max-width: 80%; */
     padding: 20px 15%;
 }
-
 
 
 
@@ -79,6 +78,45 @@ button {
     align-items: center;
     background-color: lightgray;
 }
+
+
+
+.gallery {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 0 0 200px;
+}
+
+.gallery-img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
 
 
 footer {
