@@ -9,12 +9,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
     /* border: 5px solid blue; */
 }
 
-header {
+header, .main {
     /* max-width: 80%; */
-    padding: 20px 150px;
+    padding: 20px 15%;
 }
 
 
@@ -36,6 +37,48 @@ header a {
     color: white;
 }
 
+
+
+.main {
+    display: flex;
+    gap: 60px;
+    background-color: #1f2937;
+    color: white;
+    padding-bottom: 75px;
+    padding-top: 50px;
+}
+
+.main-left {
+    flex: 1 1 35%;
+}
+
+.main h1{
+    margin-bottom:12px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main p {
+    margin-bottom: 12px;
+    font-size: 18PX;
+    color: #E5E7EB;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.main-img {
+    flex: 1 1 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
 
 
 
