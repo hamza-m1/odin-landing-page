@@ -156,6 +156,7 @@ button {
     display: flex;
     color: white;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .action-text h4 {
@@ -165,7 +166,7 @@ button {
 
 .action-button {
     border: 3px solid white;
-    flex: 0 0 1;
+    flex: 0 0 auto;
 }
 
 
