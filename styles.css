@@ -167,6 +167,7 @@ button {
 .action-button {
     border: 3px solid white;
     flex: 0 0 auto;
+    margin: auto 0px;
 }
 
 
